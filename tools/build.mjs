@@ -1,4 +1,3 @@
-
 import { renderWorkTitles } from './render-video-titles.mjs';
 import { cp, mkdir, rm, readFile, writeFile } from 'node:fs/promises';
 
