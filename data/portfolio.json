@@ -1,0 +1,739 @@
+{
+  "person": {
+    "name": "Kishor M",
+    "brand": "kixor.",
+    "email": "kixor.24@gmail.com",
+    "phone": "+91 97913 07909",
+    "whatsapp": "919791307909",
+    "location": "Chennai, India",
+    "behance": "https://www.behance.net/madebykishor",
+    "resume": "assets/resume/Kishor-M-Resume.pdf",
+    "resumeLabel": "Download resume"
+  },
+  "featured": {
+    "title": "AI Video Edit",
+    "label": "Featured AI edit",
+    "embedUrl": "https://drive.google.com/file/d/1nMSQAS9wrAlWZ0x9whZBL4mDdpUHllux/preview",
+    "externalUrl": "https://drive.google.com/file/d/1nMSQAS9wrAlWZ0x9whZBL4mDdpUHllux/view",
+    "description": "An existing AI-assisted edit from the original portfolio. A feel for the visual direction, pacing, and possibilities.",
+    "ratio": "16/9",
+    "localVideo": ""
+  },
+  "categories": [
+    {
+      "id": "commercial",
+      "name": "Commercial",
+      "subtitle": "Brand films, with a point of view.",
+      "description": "Clean rhythm, punchy openers, polished titles, and brand-first storytelling.",
+      "group": "Brand films / Advertising",
+      "number": "01",
+      "count": 2,
+      "externalUrl": "https://www.behance.net/gallery/255509517/Commercial",
+      "cover": "assets/optimized/commercial-960.webp"
+    },
+    {
+      "id": "real-estate",
+      "name": "Real Estate",
+      "subtitle": "Spaces worth slowing down for.",
+      "description": "Cinematic property tours, architectural stories, and carefully paced walkthroughs.",
+      "group": "Property / Cinematic tours",
+      "number": "02",
+      "count": 4,
+      "externalUrl": "https://www.behance.net/gallery/255509057/Real-Estate",
+      "cover": "assets/optimized/real-estate-960.webp"
+    },
+    {
+      "id": "personal-branding",
+      "name": "Personal Branding",
+      "subtitle": "Personality, brought into focus.",
+      "description": "Personal authority, crisp pacing, and engaging social-first visuals.",
+      "group": "Creators / Social-first edits",
+      "number": "03",
+      "count": 8,
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "cover": "assets/optimized/personal-branding-960.webp"
+    },
+    {
+      "id": "ai",
+      "name": "AI Video",
+      "subtitle": "A little beyond the expected.",
+      "description": "Generative visuals, smart enhancement, and experiments in a new visual language.",
+      "group": "Generative / Experimental",
+      "number": "04",
+      "count": 10,
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "cover": "assets/optimized/ai-960.webp"
+    },
+    {
+      "id": "motion-graphics",
+      "name": "Motion Graphics",
+      "subtitle": "Ideas that refuse to sit still.",
+      "description": "Kinetic type, logo animation, title systems, and 2D / 3D motion.",
+      "group": "Typography / 2D & 3D",
+      "number": "05",
+      "count": 3,
+      "externalUrl": "https://www.behance.net/gallery/255509733/Motion-Graphics",
+      "cover": "assets/optimized/motion-graphics-960.webp"
+    },
+    {
+      "id": "podcast",
+      "name": "Podcast",
+      "subtitle": "Conversations, without the noise.",
+      "description": "Multicam edits, clean audio, animated captions, and conversational pacing.",
+      "group": "Multicam / Social cutdowns",
+      "number": "06",
+      "count": 5,
+      "externalUrl": "https://www.behance.net/gallery/255509575/Podcast",
+      "cover": "assets/optimized/podcast-960.webp"
+    }
+  ],
+  "projects": [
+    {
+      "id": "commercial-01",
+      "category": "commercial",
+      "title": "Watch video",
+      "description": "Clean rhythm, punchy openers, polished title work, and platform-ready delivery for commercial brands.",
+      "tags": [
+        "Commercial",
+        "Brand Film"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/VWUruzIuyLp/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509517/Commercial",
+      "ratio": "16/9",
+      "sourceProjectId": "255509517",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "commercial-02",
+      "category": "commercial",
+      "title": "Watch video",
+      "description": "High-end commercial motion edit with kinetic typography, seamless cuts, and color grade.",
+      "tags": [
+        "Motion Design",
+        "Cinematic"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/MqW2ISjFTBT/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509517/Commercial",
+      "ratio": "16/9",
+      "sourceProjectId": "255509517",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-01",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "AI-assisted generative video showcase with smart motion synth and high visual fidelity.",
+      "tags": [
+        "AI Video",
+        "Widescreen"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/4ZPAsdnhg7m/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "16/9",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-02",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "Short-form neural video generation edit with fluid transitions and automated upscaling.",
+      "tags": [
+        "AI Suite",
+        "Reels"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/9n7uCXzuAss/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-03",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "Cinematic AI visual sequence with custom audio synchronization and neural denoising.",
+      "tags": [
+        "AI Motion",
+        "Pacing"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/-UyhDhSvg8x/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-04",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "Experimental AI edit combining generative visual b-roll with punchy typography accents.",
+      "tags": [
+        "Generative",
+        "Typography"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/6QV3f9mrNgg/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-05",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "High-frame-rate AI interpolation cutdown with crisp visual clarity and color treatment.",
+      "tags": [
+        "Topaz AI",
+        "Enhance"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/QEn5yL_UdB9/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-06",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "Next-gen AI visual creation with seamless scene blending and custom sound design.",
+      "tags": [
+        "AI Visuals",
+        "Brand"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/7M8oQ5Br2-N/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-07",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "Dynamic neural edit featuring automated keyframing and stylized visual atmosphere.",
+      "tags": [
+        "Neural Edit",
+        "Creative"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/P2jnQdXRn4H/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-08",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "High-retention social edit powered by AI b-roll generation and audio foley overlay.",
+      "tags": [
+        "AI Reel",
+        "Retention"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/PasQT6YRUnN/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-09",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "Rhythmic generative video edit featuring artificial intelligence art direction and cuts.",
+      "tags": [
+        "Generative AI",
+        "Motion"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/ADy7fs-yA38/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "ai-10",
+      "category": "ai",
+      "title": "Watch video",
+      "description": "Full AI video reel showcase wrapping up the experimental neural edit collection.",
+      "tags": [
+        "Showcase",
+        "AI Final"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/5gFFDLTToHm/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509285/AI-Video",
+      "ratio": "9/16",
+      "sourceProjectId": "255509285",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-01",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "High-retention visual editing, kinetic typography, and motion pacing from the Personal Branding series.",
+      "tags": [
+        "Premiere Pro",
+        "Branding"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/4QMQqfXxq7s/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-02",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "Dynamic visual cutdown focusing on brand identity, clean transitions, and engaging rhythm.",
+      "tags": [
+        "After Effects",
+        "Brand Film"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/9Iwt85Ks4Dw/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-03",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "Cinematic story pacing with layered audio design and polished visual accents.",
+      "tags": [
+        "Motion GFX",
+        "Story"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/VpJDDFMSyF3/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-04",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "High-impact short-form video edit engineered for social engagement and retention.",
+      "tags": [
+        "Reels",
+        "Typography"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/LoIWMe_7_8W/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-05",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "Creative brand visual featuring custom cuts, sound effects, and color grading.",
+      "tags": [
+        "Color Grade",
+        "Creative"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/AX6Ap6BmGdF/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-06",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "Authority-building personal brand piece with sharp pacing and visual momentum.",
+      "tags": [
+        "Authority",
+        "Visual Edit"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/K5C2ttFaBSA/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-07",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "Rhythmic visual editing with custom graphics, lower thirds, and seamless flow.",
+      "tags": [
+        "Motion",
+        "Pacing"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/4S6bEUBo225/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "personal-branding-08",
+      "category": "personal-branding",
+      "title": "Watch video",
+      "description": "Full brand showcase edit wrapping up the Personal Branding visual reel.",
+      "tags": [
+        "Showcase",
+        "Final Cut"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/-MfoLtwG6Xk/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "ratio": "9/16",
+      "sourceProjectId": "255358117",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "real-estate-01",
+      "category": "real-estate",
+      "title": "Watch video",
+      "description": "Cinematic property walkthrough video with smooth camera motion, clean visual rhythm, and grade.",
+      "tags": [
+        "Property",
+        "Cinematic"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/FTJFyiFHiGf/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509057/Real-Estate",
+      "ratio": "9/16",
+      "sourceProjectId": "255509057",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "real-estate-02",
+      "category": "real-estate",
+      "title": "Watch video",
+      "description": "Luxury estate video tour featuring ambient sound design, high-retention cuts, and motion captions.",
+      "tags": [
+        "Estate",
+        "Visuals"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/HCTNuwLi2Sn/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509057/Real-Estate",
+      "ratio": "9/16",
+      "sourceProjectId": "255509057",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "real-estate-03",
+      "category": "real-estate",
+      "title": "Watch video",
+      "description": "Architectural highlight video edit with speed ramps, custom typography callouts, and polish.",
+      "tags": [
+        "Architecture",
+        "Shorts"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/MB3HPayG7gz/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509057/Real-Estate",
+      "ratio": "9/16",
+      "sourceProjectId": "255509057",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "real-estate-04",
+      "category": "real-estate",
+      "title": "Watch video",
+      "description": "Interior design and property promo edit wrapping up the Real Estate visual showcase series.",
+      "tags": [
+        "Interior",
+        "Final Cut"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/9XkhbWouYdV/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509057/Real-Estate",
+      "ratio": "9/16",
+      "sourceProjectId": "255509057",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "motion-graphics-01",
+      "category": "motion-graphics",
+      "title": "Watch video",
+      "description": "Kinetic typography and logo animation with silky 60fps motion curves and visual transitions.",
+      "tags": [
+        "After Effects",
+        "Kinetic"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/AuMce4XZMee/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509733/Motion-Graphics",
+      "ratio": "9/16",
+      "sourceProjectId": "255509733",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "motion-graphics-02",
+      "category": "motion-graphics",
+      "title": "Watch video",
+      "description": "Dynamic lower thirds, visual callouts, and title system animation designed for high-impact visual style.",
+      "tags": [
+        "Motion GFX",
+        "Animation"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/QTJB79C3Jda/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509733/Motion-Graphics",
+      "ratio": "9/16",
+      "sourceProjectId": "255509733",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "motion-graphics-03",
+      "category": "motion-graphics",
+      "title": "Watch video",
+      "description": "Polished 2D/3D motion graphics animation wrapping up the Motion Graphics visual showcase series.",
+      "tags": [
+        "3D Motion",
+        "Final Cut"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/Q6SefFRYIW4/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509733/Motion-Graphics",
+      "ratio": "9/16",
+      "sourceProjectId": "255509733",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "podcast-01",
+      "category": "podcast",
+      "title": "Watch video",
+      "description": "Multicam podcast edit with animated captions, clean audio cleanup, and conversational pacing.",
+      "tags": [
+        "Podcast",
+        "Multicam"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/Irj3wGjg5Ny/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509575/Podcast",
+      "ratio": "9/16",
+      "sourceProjectId": "255509575",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "podcast-02",
+      "category": "podcast",
+      "title": "Watch video",
+      "description": "High-retention social media cutdown featuring dynamic lower thirds and sound design.",
+      "tags": [
+        "Audio Cleanup",
+        "Captions"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/-EYjhh3Rnix/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509575/Podcast",
+      "ratio": "9/16",
+      "sourceProjectId": "255509575",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "podcast-03",
+      "category": "podcast",
+      "title": "Watch video",
+      "description": "Podcast highlight edit with animated typography, punchy visual hooks, and polished mix.",
+      "tags": [
+        "Highlights",
+        "Shorts"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/HuSwFSagXgE/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509575/Podcast",
+      "ratio": "9/16",
+      "sourceProjectId": "255509575",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "podcast-04",
+      "category": "podcast",
+      "title": "Watch video",
+      "description": "Short-form podcast clip engineered for viral reach, subscriber retention, and visual momentum.",
+      "tags": [
+        "Reels",
+        "Engaging"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/JzfpzFKjdsL/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509575/Podcast",
+      "ratio": "9/16",
+      "sourceProjectId": "255509575",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    },
+    {
+      "id": "podcast-05",
+      "category": "podcast",
+      "title": "Watch video",
+      "description": "Full podcast reel showcase wrapping up the multi-cam conversation edit collection.",
+      "tags": [
+        "Showcase",
+        "Podcast Final"
+      ],
+      "embedUrl": "https://www-ccv.adobe.io/v1/player/ccv/6UdDDSFqbI8/embed?api_key=behance1&bgcolor=%23191919",
+      "externalUrl": "https://www.behance.net/gallery/255509575/Podcast",
+      "ratio": "9/16",
+      "sourceProjectId": "255509575",
+      "thumbnail": "",
+      "thumbnailMode": "native-player",
+      "originalFileName": "",
+      "sourceTitle": "",
+      "caption": "",
+      "titleSource": "unavailable"
+    }
+  ],
+  "sync": {
+    "enabled": true,
+    "endpoint": "/api/behance",
+    "checkEverySeconds": 300,
+    "username": "madebykishor",
+    "cacheVersion": 4
+  }
+}

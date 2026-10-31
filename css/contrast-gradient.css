@@ -1,0 +1,38 @@
+/* KIXOR: accessible editorial color and gradient system. Edit palette here. */
+:root {
+  --paper:#F6F3EC; --surface:#FFFEFB; --ink:#202722; --muted:#515D55;
+  --line:#C9CEC5; --accent:#79542E; --soft:#EAE5DB; --dark:#202D27;
+  --gradient-a:#F6F3EC; --gradient-b:#E9EEE7; --gradient-c:#F4EBDD;
+  --glass-panel:rgba(255,254,251,.83); --focus-ring:#79542E;
+}
+
+html { background:var(--paper); }
+body {
+  color:var(--ink);
+  background-color:var(--paper);
+  background-image:radial-gradient(ellipse 75% 52% at 92% 4%,var(--gradient-b),transparent 82%),radial-gradient(ellipse 65% 48% at 4% 48%,var(--gradient-c),transparent 85%),linear-gradient(155deg,var(--gradient-a),var(--paper));
+  background-attachment:fixed;
+  transition:background-color .75s ease,color .65s ease;
+}
+/* The former negative-z background could disappear behind opaque sections. */
+body::before { display:none!important; }
+.site-header {background:var(--glass-panel);border-bottom-color:var(--line)}
+.site-header.is-scrolled {background:var(--glass-panel)}
+.main-nav {background:var(--glass-panel);border-color:var(--line)}
+.main-nav a,.main-nav a:visited {color:var(--muted)}
+.main-nav a:hover,.main-nav a[aria-current] {color:var(--ink)}
+.nav-indicator {background:var(--soft)}
+:where(p,li,small,.work-meta,.eyebrow,.hero-kicker,.work-caption,.section-top,.site-footer,.profile-tools) {color:inherit}
+:where(.muted,.text-muted,.secondary-text) {color:var(--muted)}
+:where(h1,h2,h3,h4,h5,h6,.brand,.section-heading,.contact-heading,.profile-title) {color:var(--ink)}
+:where(a,button,input,textarea,select):focus-visible {outline:2px solid var(--focus-ring);outline-offset:4px}
+.button-dark {background:#202D27;color:#FFFFFF}
+
+.button-outline {color:var(--ink);border-color:var(--line)}
+.theme-toggle {background:var(--surface);color:var(--ink);border-color:var(--line)}
+.contact-panel,.work-card,.film-card {border-color:var(--line)}
+/* Preserve the visual integrity of photos and portfolio artwork in both themes. */
+
+
+@media(prefers-reduced-motion:reduce){body{transition:none}}
+@media(max-width:700px){body{background-attachment:scroll}}

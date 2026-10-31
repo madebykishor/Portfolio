@@ -1,0 +1,43 @@
+{
+  "username": "madebykishor",
+  "ownerId": "151483611",
+  "cacheSeconds": 900,
+  "failureCacheSeconds": 180,
+  "requestTimeoutMs": 6500,
+  "totalTimeoutMs": 45000,
+  "maxProjectsPerSync": 24,
+  "concurrency": 4,
+  "projectSources": [
+    {
+      "id": "255509517",
+      "url": "https://www.behance.net/gallery/255509517/Commercial",
+      "category": "commercial"
+    },
+    {
+      "id": "255509057",
+      "url": "https://www.behance.net/gallery/255509057/Real-Estate",
+      "category": "real-estate"
+    },
+    {
+      "id": "255358117",
+      "url": "https://www.behance.net/gallery/255358117/Personal-Branding",
+      "category": "personal-branding"
+    },
+    {
+      "id": "255509285",
+      "url": "https://www.behance.net/gallery/255509285/AI-Video",
+      "category": "ai"
+    },
+    {
+      "id": "255509733",
+      "url": "https://www.behance.net/gallery/255509733/Motion-Graphics",
+      "category": "motion-graphics"
+    },
+    {
+      "id": "255509575",
+      "url": "https://www.behance.net/gallery/255509575/Podcast",
+      "category": "podcast"
+    }
+  ],
+  "categoryOverrides": {}
+}
