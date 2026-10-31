@@ -1,6 +1,6 @@
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { performSync, seed } from '../lib/behance.mjs';
+import { performSync, seed, config } from '../lib/behance.mjs';
 
 const outputPath = 'data/behance-sync.json';
 
@@ -30,17 +30,32 @@ console.log('Behance sync status:', result.status);
 console.log('Projects:', result.projects.length);
 console.log('Warnings:', result.warnings);
 
-if (result.status === 'unavailable') {
-  console.error('Behance unavailable. Saved data preserved.');
-  process.exitCode = 1;
-} else {
-  await mkdir('data', { recursive: true });
+let output = result;
 
-  await writeFile(
-    outputPath,
-    JSON.stringify(result, null, 2) + '\n',
-    'utf8'
+if (result.status === 'unavailable') {
+  console.warn(
+    'Behance access unavailable. Publishing saved portfolio.'
   );
 
-  console.log('Behance data saved successfully.');
+  output = {
+    ...result,
+    status: 'unavailable',
+    projects: previous,
+    lastSuccessfulAt,
+    warnings: [
+      ...result.warnings,
+      'Showing saved portfolio. Live Behance sync unavailable.'
+    ]
+  };
 }
+
+await mkdir('data', { recursive: true });
+
+await writeFile(
+  outputPath,
+  JSON.stringify(output, null, 2) + '\n',
+  'utf8'
+);
+
+console.log('Portfolio JSON saved successfully.');
+console.log('Published project count:', output.projects.length);
