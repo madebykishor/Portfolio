@@ -104,7 +104,7 @@
     if (pending || Date.now() - lastRequestAt < 60000) return;
     let endpoint;
     try {
-      endpoint = new URL(settings.endpoint, location.href);
+      endpoint = new URL('./data/behance-sync.json', new URL('./', document.currentScript?.src || location.href));
       if (endpoint.origin !== location.origin) throw new Error('Use a same-origin sync endpoint.');
     } catch { setStatus('unavailable', 'Showing saved work - sync not configured'); return; }
     pending = true; lastRequestAt = Date.now();
