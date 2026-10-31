@@ -1,0 +1,31 @@
+/* Premium motion enhancements; tune durations here. */
+:root {--motion-fast:280ms;--motion-medium:650ms;--motion-slow:1100ms}
+@media(prefers-reduced-motion:no-preference){
+ .work-art img,.reel-image img,.work-card .native-thumbnail img {transition:transform 1.1s cubic-bezier(.22,1,.36,1),filter .8s ease}
+ .work-card:hover .work-art img,.reel-frame:hover .reel-image img {transform:scale(1.055)}
+ .work-card {transition:transform .65s cubic-bezier(.22,1,.36,1),box-shadow .65s ease}
+ .work-card:hover {transform:translateY(-6px);box-shadow:0 22px 45px -30px var(--theme-shadow)}
+ .button,.text-link {transition-duration:var(--motion-medium)}
+ .hero-kicker .identity-dot {animation:premium-breathe 3.6s ease-in-out infinite}
+ @keyframes premium-breathe{50%{box-shadow:0 0 0 7px color-mix(in srgb,var(--accent) 14%,transparent)}}
+ .scroll-note span {display:inline-block;animation:premium-down 2.5s ease-in-out infinite}
+ @keyframes premium-down{50%{transform:translateY(5px)}}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* SaaS-inspired editorial motion system: elegant, performant, configurable. */
+:root{--ease-premium:cubic-bezier(.22,1,.36,1);--reveal-distance:24px;--motion-accent:var(--accent,#b38a52)}
+.motion-scroll-progress{position:fixed;inset:0 0 auto;z-index:9999;height:2px;pointer-events:none;background:var(--motion-accent);transform:scaleX(0);transform-origin:left;will-change:transform}
+@media(prefers-reduced-motion:no-preference){
+ .motion-reveal{opacity:0;transform:translate3d(0,var(--reveal-distance),0);transition:opacity 900ms var(--ease-premium),transform 900ms var(--ease-premium);transition-delay:var(--reveal-delay,0ms)}
+ .motion-reveal.motion-visible{opacity:1;transform:translate3d(0,0,0)}
+ .motion-magnetic{transform:translate3d(var(--mag-x,0px),var(--mag-y,0px),0);transition:transform 450ms var(--ease-premium),background-color 350ms ease,color 350ms ease,border-color 350ms ease}
+ .work-card,.reel-frame{isolation:isolate}
+ .work-card::after,.reel-frame::after{content:"";position:absolute;inset:0;pointer-events:none;border:1px solid transparent;border-radius:inherit;transition:border-color 500ms ease,box-shadow 600ms ease}
+ .work-card:hover::after,.reel-frame:hover::after{border-color:color-mix(in srgb,var(--motion-accent) 32%,transparent);box-shadow:inset 0 0 24px color-mix(in srgb,var(--motion-accent) 5%,transparent)}
+ .work-art img,.reel-image img{will-change:auto}
+ .work-card:hover .work-art img,.reel-frame:hover .reel-image img{filter:saturate(1.05) contrast(1.025)}
+ a:focus-visible,button:focus-visible{outline:2px solid var(--motion-accent);outline-offset:4px}
+}
+@media(max-width:700px){:root{--reveal-distance:14px}.motion-reveal{transition-duration:650ms}}
+@media(prefers-reduced-motion:reduce){.motion-reveal{opacity:1!important;transform:none!important}.motion-scroll-progress{display:none}}

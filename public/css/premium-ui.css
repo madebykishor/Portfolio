@@ -1,0 +1,24 @@
+/* Kixor / Premium UI: refined buttons, quiet borders, cinematic player */
+:root{--ui-ink:#202722;--ui-bronze:#80613e;--ui-stroke:rgba(52,60,53,.17);--ui-ease:cubic-bezier(.22,1,.36,1)}
+.button{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:.75rem;border:1px solid var(--ui-stroke);border-radius:999px;min-height:48px;padding:12px 24px;letter-spacing:.015em;box-shadow:0 4px 14px rgba(28,35,30,.045),inset 0 1px rgba(255,255,255,.3);transition:transform .55s var(--ui-ease),box-shadow .55s var(--ui-ease),background-color .4s ease,border-color .4s ease,color .4s ease!important}
+.button::after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(110deg,transparent 15%,rgba(255,255,255,.18) 45%,transparent 75%);transform:translateX(-130%);transition:transform .85s var(--ui-ease)}
+.button-dark{background:#252e28;color:#fffdf6;border-color:#252e28;box-shadow:0 10px 26px -14px rgba(27,38,30,.45),inset 0 1px rgba(255,255,255,.13)}
+.button-outline{background:rgba(255,255,255,.48);color:var(--ui-ink);border-color:rgba(52,60,53,.25);backdrop-filter:blur(10px)}
+.button .icon{transition:transform .5s var(--ui-ease)}
+@media(hover:hover){.button:hover{transform:translateY(-3px);box-shadow:0 17px 32px -19px rgba(27,38,30,.36);border-color:rgba(128,97,62,.5)}.button:hover::after{transform:translateX(130%)}.button:hover .icon{transform:translate(2px,-1px)}.button-dark:hover{background:#354339;color:#fff}.button-outline:hover{background:#fffdf8}}
+.button:active{transform:translateY(0) scale(.985)}
+.button:focus-visible,.icon-button:focus-visible{outline:3px solid #a47a45;outline-offset:4px}
+.work-card,.film-card,.reel-frame,.dialog-shell{border-color:var(--ui-stroke);border-radius:clamp(16px,2vw,26px)}
+.work-card,.film-card{box-shadow:0 4px 20px rgba(34,40,34,.045);transition:transform .7s var(--ui-ease),box-shadow .7s var(--ui-ease),border-color .5s ease}
+@media(hover:hover){.work-card:hover,.film-card:hover{border-color:rgba(128,97,62,.35);box-shadow:0 25px 60px -40px rgba(27,38,30,.36)}}
+.film-dialog{border:0;padding:0;background:transparent;max-width:min(1100px,calc(100vw - 28px));max-height:calc(100dvh - 28px);overflow:visible;color:var(--ui-ink)}
+.film-dialog::backdrop{background:rgba(15,23,19,.68);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);animation:ui-backdrop-in .5s ease both}
+.film-dialog[open]{animation:ui-modal-in .72s var(--ui-ease) both}
+.film-dialog .dialog-shell{overflow:auto;max-height:calc(100dvh - 28px);background:linear-gradient(150deg,#fffdf8,#f2f2ec);border:1px solid rgba(255,255,255,.75);box-shadow:0 30px 110px rgba(0,0,0,.26),inset 0 1px rgba(255,255,255,.9)}
+.film-dialog .dialog-top,.film-dialog .dialog-copy,.film-dialog .dialog-bottom{border-color:rgba(48,56,49,.12)}
+.film-dialog .icon-button{border:1px solid rgba(48,56,49,.16);border-radius:50%;background:rgba(255,255,255,.7);transition:transform .45s var(--ui-ease),background .35s ease,border-color .35s ease}
+@media(hover:hover){.film-dialog .icon-button:hover{transform:rotate(8deg) scale(1.06);background:#fff;border-color:rgba(128,97,62,.4)}}
+@keyframes ui-modal-in{from{opacity:0;transform:translateY(32px) scale(.955);filter:blur(7px)}to{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}
+@keyframes ui-backdrop-in{from{opacity:0}to{opacity:1}}
+@media(max-width:600px){.button{min-height:46px;padding:11px 18px}.film-dialog{max-width:calc(100vw - 16px)}}
+@media(prefers-reduced-motion:reduce){.film-dialog[open],.film-dialog::backdrop{animation:none!important}.button::after{display:none}}
