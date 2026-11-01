@@ -5,13 +5,13 @@
     "username": "madebykishor",
     "url": "https://www.behance.net/madebykishor"
   },
-  "checkedAt": "2026-11-01T13:22:00.397Z",
+  "checkedAt": "2026-11-01T22:00:07.712Z",
   "lastSuccessfulAt": null,
   "pollAfterSeconds": 900,
   "discovery": {
     "ok": true,
-    "discovered": 9,
-    "checked": 9,
+    "discovered": 10,
+    "checked": 10,
     "truncated": false,
     "scope": "Public profile HTML; client-side pagination is not crawled."
   },
@@ -60,6 +60,13 @@
       "message": "Behance returned HTTP 403. No access-control bypass is attempted."
     },
     {
+      "id": "257892675",
+      "url": "https://www.behance.net/gallery/257892675/GYM-Fitness",
+      "status": "failed",
+      "count": null,
+      "message": "Behance returned HTTP 403. No access-control bypass is attempted."
+    },
+    {
       "id": "221638611",
       "url": "https://www.behance.net/gallery/221638611/Workout-App-UI-Design-Smash-Your-Fitness-Goals-",
       "status": "failed",
@@ -88,6 +95,7 @@
     "255509285: Behance returned HTTP 403. No access-control bypass is attempted.",
     "255509733: Behance returned HTTP 403. No access-control bypass is attempted.",
     "255509575: Behance returned HTTP 403. No access-control bypass is attempted.",
+    "257892675: Behance returned HTTP 403. No access-control bypass is attempted.",
     "221638611: Behance returned HTTP 403. No access-control bypass is attempted.",
     "214158687: Behance returned HTTP 403. No access-control bypass is attempted.",
     "212626763: Behance returned HTTP 403. No access-control bypass is attempted.",
